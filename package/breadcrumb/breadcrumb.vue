@@ -1,16 +1,27 @@
 <template>
-  <div class="a"></div>
+  <div class="breadcrumb">
+    <slot></slot>
+  </div>
 </template>
 <script>
 export default {
-  components: {},
-  data () {
-    return {
+  name: 'Breadcrumb',
+  props: {
+    separator: {
+      type: String,
+      default: '/'
+    },
+    separatorClass: {
+      type: String,
+      default: ''
     }
   },
-  computed: {},
+  provide () {
+    return {
+      breadcrumb: this
+    }
+  },
   mounted () {},
-  methods: {}
 }
 </script>
 <style lang="scss" scoped>
