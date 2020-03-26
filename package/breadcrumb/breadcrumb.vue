@@ -18,7 +18,7 @@ export default {
   },
   provide () {
     return {
-      breadcrumb: this
+      breadcrumbEl: this
     }
   },
   mounted () {},
