@@ -24,7 +24,7 @@
 </template>
 <script>
 export default {
-  name: 'BreadcrumbItem',
+  name: 'HpBreadcrumbItem',
   props: {
     // 跳转路径
     to: [String, Object],

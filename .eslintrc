@@ -4,13 +4,20 @@
     "ga": true,
     "chrome": true
   },
+  // https://eslint.org/docs/user-guide/configuring#using-the-configuration-from-a-plugin
+  // 使用安装的插件
   "plugins": ["html", "json"],
+  // https://eslint.org/docs/user-guide/configuring#extending-configuration-files
+  // 配置rules集合
   "extends": "elemefe",
+  // 覆盖上面的规则集合
   "rules": {
     "no-restricted-globals": ["error", "event", "fdescribe"]
   },
+  // 指定解析器选项
   "parserOptions": {
     "ecmaVersion": 6,
+    // 使用其它语言功能
     "ecmaFeatures": {
       "jsx": true
     }
