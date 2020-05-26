@@ -1,2 +1,7 @@
-# simple-vue-pc-ui
-steps-steps vue-pc-ui
+## vue-teamplete
+
+webpack-sap-vue
+
+feature-list:
+
+// !! babel-core 为了 兼容 jest can't find babel-core
