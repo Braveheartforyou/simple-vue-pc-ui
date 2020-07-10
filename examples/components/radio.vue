@@ -61,7 +61,7 @@
 import HpRadio from '@com/radio/radio';
 import HpRadioGroup from '@com/radio/radio-group';
 export default {
-  name: 'hpRadioEx',
+  name: 'HpRadioEx',
   components: {
     HpRadio,
     HpRadioGroup

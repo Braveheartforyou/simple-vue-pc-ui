@@ -3,22 +3,22 @@
  * @Author: asyncnode
  * @Date: 2020-05-13 10:37:47
  * @LastEditors: asyncnode
- * @LastEditTime: 2020-05-25 09:46:04
+ * @LastEditTime: 2020-07-10 17:13:45
 -->
 <template>
   <div id="app">
-    <hpRadioEx></hpRadioEx>
-    <hpBreadcrumbEx></hpBreadcrumbEx>
+    <hpCheckboxEx></hpCheckboxEx>
+    <!-- <hpBreadcrumbEx></hpBreadcrumbEx> -->
   </div>
 </template>
 <script>
-import hpRadioEx from '../examples/components/radio';
-import hpBreadcrumbEx from '@examples/components/breadcrumb';
+import hpCheckboxEx from '../examples/components/checkbox';
+// import hpBreadcrumbEx from '@examples/components/breadcrumb';
 export default {
   name: 'App',
   components: {
-    hpRadioEx,
-    hpBreadcrumbEx
+    hpCheckboxEx
+    // hpBreadcrumbEx
   }
 };
 </script>

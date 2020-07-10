@@ -3,11 +3,11 @@
  * @Author: asyncnode
  * @Date: 2020-05-27 08:45:41
  * @LastEditors: asyncnode
- * @LastEditTime: 2020-05-27 16:07:06
+ * @LastEditTime: 2020-06-22 16:51:51
 -->
 <template>
   <label :class="wrapperClasses">
-    span.hp-checkbox_
+    <span :class="checkboxClass"></span>
   </label>
 </template>
 

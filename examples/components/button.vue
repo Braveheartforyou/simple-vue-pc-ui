@@ -117,7 +117,7 @@
 import hpButtonGrounp from '@/components/button/button-group';
 import hpButton from '@/components/button/button';
 export default {
-  name: 'App',
+  name: 'HpButtonEx',
   components: {
     hpButton,
     hpButtonGrounp
